@@ -4,7 +4,7 @@
 /*------------------------------------------------------------------- 991px x 768px ---------------------------------------------------------------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    
+
     .header-search {
         padding: 15px 0px;
     }
@@ -134,7 +134,7 @@
 }
 
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+
     .titlepage h2::after {width: 58%;}
     .about-box .titlepage h2::after {
         width: 52%;
@@ -150,11 +150,11 @@ width: 30%;
 .logo { width: 20%; }
 .navbar-expand-lg .navbar-nav .nav-link { padding-left: 16px; }
 .navbar-light .navbar-nav .nav-link { font-size: 16px; }
-.call_text { font-size: 16px; } 
-.search_icon li { padding-left: 8px; font-size: 16px; } 
-.banner_section { padding-top: 15px; } 
+.call_text { font-size: 16px; }
+.search_icon li { padding-left: 8px; font-size: 16px; }
+/*.banner_section { padding-top: 15px; } */
 .contact_bt { margin-top: 220px; }
-.banner_section { padding-bottom: 40px; }
+/*.banner_section { padding-bottom: 40px; }*/
 .contact_section { background-size: cover; }
 
 
@@ -211,7 +211,7 @@ width: 30%;
 .navbar-toggler { background-color: #ffffff; }
 .logo { width: 50%; }
 .header_section { background-size: cover; }
-.banner_section { padding-top: 20px; padding-bottom: 28PX; }
+/*.banner_section { padding-top: 20px; padding-bottom: 28PX; }*/
 .furniture_text { font-size: 50px; }
 .there_text { width: 100%; font-size: 15px;}
 .contact_bt_main { width: 150px; }
@@ -222,28 +222,28 @@ width: 30%;
 .read_bt_main { width: 150px; }
 .lorem_text { padding-top: 0px; font-size: 15px; }
 .read_bt1 { width: 150px; margin-top: 20px; }
-.image_1 { padding-top: 50px; } 
+.image_1 { padding-top: 50px; }
 .get_bt_main { width: 150px; }
 .get_bt { margin-top: 20PX; }
 .client_text { font-size: 22PX; }
 .client_1 { width: 70%; }
 .client_2 { width: 70%; }
 .quote_icon { bottom: 87px; }
-.carousel-indicators { display: none; } 
+.carousel-indicators { display: none; }
 .overlay { top: 35px; }
 .icon { font-size: 70px; }
 .dololr_text { font-size: 16px; }
 .contact_section { background-size: cover; }
 .send_bt a { width: 130px; padding: 5px 0px; }
-.input-group { width: 290px; } 
+.input-group { width: 290px; }
 .container_main1::after { width: 88%; height: 88%; }
 .modern_text { font-size: 12px; top: -30px; }
 .text { font-size: 8px; }
 .temper_text { font-size: 15px; }
 .email-bt { margin-top: 10px; }
 .massage-bt { margin-top: 10px; }
-.send_bt { margin-top: 20px; } 
-.mb-lg-0, .my-lg-0 { width: 100%; } 
+.send_bt { margin-top: 20px; }
+.mb-lg-0, .my-lg-0 { width: 100%; }
 .search_icon { width: 100%; }
 #costum_slider a.carousel-control-next { display: none; }
 #costum_slider a.carousel-control-prev { display: none; }
@@ -257,7 +257,7 @@ width: 30%;
     .banner-main .carousel-caption {top: 0%;}
 .titlepage h2 {
 font-size: 42px;
-display: block; 
+display: block;
 }
 #main_slider a.carousel-control-prev {
     position: absolute;
@@ -302,7 +302,7 @@ padding: 126px 40px;
 .navbar-toggler { background-color: #ffffff; }
 .logo { width: 50%; }
 .header_section { background-size: cover; }
-.banner_section { background-size: cover; padding-top: 20px; }
+/*.banner_section { background-size: cover; padding-top: 20px; }*/
 .furniture_text { font-size: 50px; }
 .there_text { width: 100%; font-size: 15px;}
 .contact_bt_main { width: 150px; }
@@ -313,35 +313,35 @@ padding: 126px 40px;
 .read_bt_main { width: 150px; }
 .lorem_text { padding-top: 0px; font-size: 15px; }
 .read_bt1 { width: 150px; margin-top: 20px; }
-.image_1 { padding-top: 50px; } 
+.image_1 { padding-top: 50px; }
 .get_bt_main { width: 150px; }
 .get_bt { margin-top: 20PX; }
 .client_text { font-size: 22PX; }
 .client_1 { width: 100%; }
 .client_2 { width: 100%; }
 .quote_icon { bottom: 82px; }
-.carousel-indicators { display: none; } 
+.carousel-indicators { display: none; }
 .overlay { top: 35px; }
 .icon { font-size: 70px; }
 .dololr_text { font-size: 16px; }
 .contact_section { background-size: cover; }
 .send_bt a { width: 130px; padding: 5px 0px; }
-.input-group { width: 290px; } 
+.input-group { width: 290px; }
 .container_main1::after { width: 84%; height: 84%; }
 .modern_text { font-size: 12px; top: -30px; }
 .text { font-size: 8px; }
-.mb-lg-0, .my-lg-0 { width: 100%; } 
+.mb-lg-0, .my-lg-0 { width: 100%; }
 .search_icon { width: 100%; }
 #costum_slider a.carousel-control-next { display: none; }
 #costum_slider a.carousel-control-prev { display: none; }
 
 
-} 
+}
 
 
 @media (max-width: 575px) {
     .last { display: none; }
-    .carousel-caption {display: none;} 
+    .carousel-caption {display: none;}
 .header { padding-top: 0px; }
 .btn-primary {max-width: 126px;
 margin-right: 2px;
@@ -350,8 +350,8 @@ font-size: 14px;}
 .titlepage h2 {
     font-size: 27px;
 }
-.sporrt_text{ 
-     font-size: 23px; 
+.sporrt_text{
+     font-size: 23px;
      margin-top: 0px;
 }
 .main {
@@ -417,14 +417,14 @@ font-size: 16px;
 ul.link li {
 
     padding: 8px 12px;
-    padding-bottom: 0px; 
+    padding-bottom: 0px;
 }
 
 
 .navbar-toggler { background-color: #ffffff; }
 .logo { width: 50%; }
 .header_section { background-size: cover; }
-.banner_section { background-size: cover; padding-top: 20px; }
+/*.banner_section { background-size: cover; padding-top: 20px; }*/
 .furniture_text { font-size: 50px; }
 .there_text { width: 100%; font-size: 15px;}
 .contact_bt_main { width: 150px; }
@@ -435,21 +435,21 @@ ul.link li {
 .read_bt_main { width: 150px; }
 .lorem_text { padding-top: 0px; font-size: 15px; }
 .read_bt1 { width: 150px; margin-top: 20px; }
-.image_1 { padding-top: 50px; } 
+.image_1 { padding-top: 50px; }
 .get_bt_main { width: 150px; }
 .get_bt { margin-top: 20PX; }
 .client_text { font-size: 22PX; }
 .client_1 { width: 100%; }
 .client_2 { width: 100%; }
 .quote_icon { width: 150px; bottom: -8px; }
-.loksans_text { padding-top: 20px; } 
-.carousel-indicators { display: none; } 
+.loksans_text { padding-top: 20px; }
+.carousel-indicators { display: none; }
 .overlay { top: 35px; }
 .icon { font-size: 70px; }
 .dololr_text { font-size: 16px; }
 .contact_section { background-size: cover; }
 .send_bt a { width: 130px; padding: 5px 0px; }
-.input-group { width: 290px; } 
+.input-group { width: 290px; }
 .container_main1::after { width: 98%; height: 93%; }
 #costum_slider a.carousel-control-next { display: none; }
 #costum_slider a.carousel-control-prev { display: none; }
