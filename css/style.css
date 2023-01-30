@@ -952,7 +952,7 @@ textarea#comment::placeholder {
 .footer_section{
     width: 100%;
     float: left;
-    background-color: #313131;
+    background-color: white;
     height: auto;
     padding-bottom: 90px;
 }
@@ -1063,8 +1063,51 @@ textarea#comment::placeholder {
     background-color: white;
 }
 
+.google-maps {
+    position: relative;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
 
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
 
+#location::before {
+    background-image: url('../images/marker.png');
+}
+
+#phone::before {
+    background-image: url('../images/phone.png');
+}
+
+#email::before {
+    background-image: url('../images/email.png');
+}
+
+#fb::before {
+    background-image: url('../images/fb-icon.png');
+}
+
+#clock::before {
+    background-image: url('../images/clock.png');
+}
+
+.contact-icon::before {
+    content: "";
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+    position: relative;
+    top: 4px;
+}
 
 
 
