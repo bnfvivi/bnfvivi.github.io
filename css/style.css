@@ -1,7 +1,8 @@
 body {
     width: 80%;
     margin: auto;
-    background-image: url("../images/bg.jpg");
+    background-image: url("../images/bg3.jpg");
+    background-color: white;
 }
 
 .content-wrapper {
@@ -64,6 +65,29 @@ body {
 
 .footer a img{
     width: 40px;
+}
+
+
+.text-center {
+    text-align: center;
+}
+
+.text-justify {
+    text-align: justify;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.darken-on-hover {
+    -webkit-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.darken-on-hover:hover {
+    -webkit-filter: brightness(80%);
+    filter: brightness(80%);
 }
 
 
