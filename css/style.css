@@ -90,5 +90,80 @@ body {
     filter: brightness(80%);
 }
 
+.margin-top-and-bottom {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
+
+.body {
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgb(251, 243, 232);
+}
+
+.body-more {
+    padding-left: 60px;
+    padding-right: 20px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.phone-div {
+    margin-bottom: 15px;
+}
+
+.et-al {
+    margin-bottom: 50px;
+}
+
+.with-dashes {
+    list-style-type: none;
+    color: black;
+}
+
+.with-dashes li:before {
+    content: '-';
+    position: absolute;
+    margin-left: -20px;
+}
+
+.with-dashes li {
+    padding-top: 3px;
+}
+
+#cphone {
+    padding-bottom: 20px;
+}
+
+.quote-container {
+    border: 1px solid black;
+    position: relative;
+    padding: 20px;
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.right {
+    margin-left: auto;
+    margin-right: 0;
+}
+
+.top-right {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    transform: rotate(180deg);
+}
+
+.bottom-left {
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+
+
+
 
 
