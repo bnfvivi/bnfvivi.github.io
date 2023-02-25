@@ -232,9 +232,7 @@ button {
     height: auto;
     background-size: 100%;
 }
-.bg-light {
-    background-color: transparent !important;
-}
+
 .logo {
     width: 25%;
     float: left;
