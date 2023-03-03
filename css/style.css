@@ -246,6 +246,130 @@ body {
 
 .cont {
     display: grid;
-    grid-template-areas: "a b" "a c";
-    gap: 20px;
+    grid-template-areas:
+    "p1 p2"
+    "p1 p3"
+    "p4 p5"
+    "p6 p6"
+    "p7 p8"
+    "p9 p8"
+    "p10 p11"
+    "p12 p12";
+    gap: 10px;
+    text-align: center;
+}
+
+.cont > .p1 {
+    grid-area: p1;
+    justify-self: right;
+}
+
+.cont > .p2 {
+    grid-area: p2;
+}
+
+.cont > .p3 {
+    grid-area: p3;
+}
+
+.cont > .p4 {
+    grid-area: p4;
+    justify-self: right;
+}
+
+.cont > .p5 {
+    grid-area: p5;
+}
+
+.cont > .p6 {
+    grid-area: p6;
+    justify-self: center;
+}
+
+.cont > .p7 {
+    grid-area: p7;
+    justify-self: right;
+}
+
+.cont > .p8 {
+    grid-area: p8;
+}
+
+.cont > .p9 {
+    grid-area: p9;
+    justify-self: right;
+}
+
+.cont > .p10 {
+    grid-area: p10;
+    justify-self: right;
+}
+
+.cont > .p11 {
+    grid-area: p11;
+}
+
+.cont > .p12 {
+    grid-area: p12;
+    justify-self: center;
+    margin-bottom: 80px;
+}
+
+.cont2 {
+    display: grid;
+    grid-template-areas:
+    "g1 g2"
+    "g1 g3"
+    "g4 g4"
+    "g5 g6"
+    "g7 g9"
+    "g8 g10";
+    gap: 10px;
+    text-align: center;
+}
+
+.cont2 > .g1 {
+    grid-area: g1;
+    justify-self: right;
+}
+
+.cont2 > .g2 {
+    grid-area: g2;
+}
+
+.cont2 > .g3 {
+    grid-area: g3;
+}
+
+.cont2 > .g4 {
+    grid-area: g4;
+    justify-self: center;
+}
+
+.cont2 > .g5 {
+    grid-area: g5;
+    justify-self: right;
+}
+
+.cont2 > .g6 {
+    grid-area: g6;
+
+}
+
+.cont2 > .g7 {
+    grid-area: g7;
+    justify-self: right;
+}
+
+.cont2 > .g8 {
+    grid-area: g8;
+    justify-self: right;
+}
+
+.cont2 > .g9 {
+    grid-area: g9;
+}
+
+.cont2 > .g10 {
+    grid-area: g10;
 }
