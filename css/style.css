@@ -437,13 +437,6 @@ body {
     height: var(--carouselHeight);
   }
 
-  #carousel3 {
-    background-image: url("../images/slide4.jpg");
-    width: 100%;
-    background-size: 100% 100%;
-    height: var(--carouselHeight);
-  }
-
   #bodyIndex {
     padding-left: 0;
     padding-right: 0;
