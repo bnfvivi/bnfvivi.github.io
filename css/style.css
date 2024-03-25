@@ -330,7 +330,10 @@ body {
     "g4 g4"
     "g5 g6"
     "g7 g9"
-    "g8 g10";
+    "g8 g10"
+    "g11 g12"
+    "g13 g14"
+    "g15 g15";
     gap: 10px;
     text-align: center;
     justify-content: center;
@@ -382,6 +385,29 @@ body {
     grid-area: g10;
 }
 
+.cont2 > .g11 {
+    grid-area: g11;
+    justify-self: right;
+}
+
+.cont2 > .g12 {
+    grid-area: g12;
+}
+
+.cont2 > .g13 {
+    grid-area: g13;
+    justify-self: right;
+}
+
+.cont2 > .g14 {
+    grid-area: g14;
+}
+
+.cont2 > .g15 {
+    grid-area: g15;
+    justify-self: center;
+}
+
 @media (max-width: 992px) {
     .cont {
         grid-template-areas:
@@ -415,11 +441,16 @@ body {
         "g7"
         "g8"
         "g9"
-        "g10";
+        "g10"
+        "g11"
+        "g12"
+        "g13"
+        "g14"
+        "g15";
         grid-template-columns: 150%;
     }
 
-    .cont2 > .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10 {
+    .cont2 > .g1, .g2, .g3, .g4, .g5, .g6, .g7, .g8, .g9, .g10, .g11, .g12, .g13, .g14, .g15 {
         justify-self: center !important;
     }
 
