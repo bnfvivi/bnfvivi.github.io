@@ -333,7 +333,10 @@ body {
     "g8 g10"
     "g11 g12"
     "g13 g14"
-    "g15 g15";
+    "g15 g15"
+    "g16 g17"
+    "g16 g18"
+    "g19 g20";
     gap: 10px;
     text-align: center;
     justify-content: center;
@@ -406,6 +409,28 @@ body {
 .cont2 > .g15 {
     grid-area: g15;
     justify-self: center;
+}
+
+.cont2 > .g16 {
+    grid-area: g16;
+    justify-self: right;
+}
+
+.cont2 > .g17 {
+    grid-area: g17;
+}
+
+.cont2 > .g18 {
+    grid-area: g18;
+}
+
+.cont2 > .g19 {
+    grid-area: g19;
+    justify-self: right;
+}
+
+.cont2 > .g20 {
+    grid-area: g20;
 }
 
 .doc-container {
